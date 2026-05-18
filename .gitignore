@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Generated synthetic data (regenerate with scripts/generate_synthetic.py) ---
+data/synthetic/
+
+# --- Reconstruction outputs (regenerate by running the notebook) ---
+X_hat.npy
+X_hat.csv
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Kaggle ---
+kaggle.json
+.kaggle/
+
+# --- Local secrets ---
+.env
+.env.local
+*.secret
